@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/constants.dart';
 
-class customButton extends StatelessWidget {
-  customButton({super.key, this.onTap, this.isLoading = false});
+class CustomButton extends StatelessWidget {
+  CustomButton({super.key, this.onTap, this.isLoading = false});
   final void Function()? onTap;
   bool isLoading = false;
   @override
